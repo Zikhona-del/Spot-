@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Notepad</title>
+  <link rel="stylesheet" href="css/notepad_app.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:italic,300italic,700,700italic">
+  <link rel="stylesheet" href="http://cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+  <link rel="stylesheet" href="http://cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+</head>
+<body>
+  <div id="container">
+    <h1>Notepad</h1>
+    <div id="write">
+      <label for="noteTitle">Note Title</label>
+      <input type="text" id="noteTitle" />
+      <label for="noteBody">Note</label>
+      <textarea id="noteBody"></textarea>
+      <button id="btnSave">Save Note</button>
+  </div>
+  <div id="read">
+    <button id="btnWrite">Write Note</button>
+    <select size="10" id="noteMaster"></select>
+    <div id="noteDisplay"></div>
+      </div>
+    </div>
+ <script src="js/Note.js"></script>
+ <script src="js/notes.js"></script>
+  </body>
+</html>

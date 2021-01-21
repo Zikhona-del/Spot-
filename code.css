@@ -1,0 +1,79 @@
+body{
+  background-color: navy;
+  background-image: url("images/lw.jpg");
+  background-repeat:no-repeat,repeat;
+  background-color: #cccccc;
+  background-size: cover;
+}
+div {
+  color: black;
+  display: block;
+  flex-direction: column;
+  text-align: right;
+  padding: 1px;
+  margin-bottom: 1px;
+  background-color: #fff;
+  box-sizing: border-box;
+
+}
+h1{
+color: white;
+font-size: 300%;
+text-align: center;
+
+}
+p {
+  color: white;
+  text-align: center;
+  font-size: 130%;
+}
+p1{
+  color: white;
+  text-align: right;
+  font-size: 130%;
+
+  }
+
+  .img-fluid{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+    box-sizing: border-box;
+    align-items: center;
+  }
+
+.blue-btn a{
+  color: white;
+  text-decoration:none;
+  text-align: center;
+  display:block; /* important */
+  margin-bottom: 4rem;
+}
+.blue-btn a{
+  align: center;
+}
+
+.blue-btn, .first-link{
+
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+
+
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+
+.blue-btn{
+  height: 64px;
+  font: normal normal 700 1em/4em Arial,sans-serif;
+  overflow: hidden;
+  width: 200px;
+  background-color: #3b5998;
+  border-radius: 50px;
+  bottom: 75%;
+}

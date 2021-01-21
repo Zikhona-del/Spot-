@@ -1,0 +1,49 @@
+<html>
+<title>Gmail Login page</title>
+<head>
+	<link type="text/css" rel="stylesheet" href="css/gmail_login.css" />
+	</head>
+	<body>
+	<center>
+	<div class="base">
+	<div id="logo">
+	<img src="img/logo.png" width="130" height="42" />
+	</div>
+	<div id="info1">One account. All of Google.</div>
+	<div id="info2">Sign in to continue to Gmail</div>
+	<div id="form1">
+	<div id="form-img">
+	<img src="img/profile-img.jpg" width="99" height="99" />
+	</div>
+	<div id="mailbox">
+	<input placeholder="Enter your email" type="mail" name="name"
+	style="width:270px; height:42px; border: solid 1px #c2c4c6;
+	font-size:16px; padding-left:8px;" required/>
+	<input placeholder="Enter your password" type="password" name="password"
+	style="width:270px; height:42px; border: solid 1px #c2c4c6;
+	font-size:16px; padding-left:8px;" required/>
+	</div>
+	<br />
+	<br />
+
+	<div><input type="submit" id="button2" value="Sign in" onclick="Sign_in()" /></div>
+	<div id="info3"><a href="#"/>Need help?</a></div>
+	</div>
+	<div id="info4"> <a href="#"/>Create account</a></div>
+	<div id="info5">One Google Account for everything Google</div>
+	<div><img src="footer-logo.png" id="logo2" /></div>
+	<div id="bottom">
+	<ul >
+		<li>Designed by Code Clans</li>
+		</ul>
+	</div>
+</div>
+	</center>
+	<script>
+	function Sign_in() {
+	  window.location.href = "homepage.html";
+	}
+	</script>
+	</body>
+
+</html>
